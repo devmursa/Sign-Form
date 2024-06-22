@@ -1,0 +1,174 @@
+html{
+    font-size: 62.5%;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.6;
+    background-color: lightskyblue;
+    color: #777;
+    
+}
+
+.header{
+    height: 8rem;
+    background-color: rgb(15, 181, 236);
+  
+    padding: .5rem 4rem;
+}
+
+.header-box{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo{
+    margin-left: 10rem;
+}
+
+.logo-text{
+    text-transform: uppercase;
+    font-size: 2.8rem;
+    font-style: italic;
+    letter-spacing: .25rem;
+    color: rgb(0, 104, 146);
+}
+
+.sign-box{
+    margin-right: 4rem;
+}
+
+.sign-up{
+    border: none;
+    padding: 1.4rem 3rem;
+    border-radius: 4rem;
+    font-size: 1.8rem;
+    font-weight: 400;
+    background-color: #ffffff;
+    margin: 0 .5rem;
+    color: rgb(0, 104, 146);
+}
+
+.sign-up:hover{
+    background-color: rgb(0, 104, 146);
+    color: #fff;
+}
+
+.sign-up:active{
+   transform: scale(.99);
+  
+}
+
+.sign-in{
+    border: none;
+    padding: 1.4rem 3rem;
+    border-radius: 4rem;
+    font-size: 1.8rem;
+    font-weight: 400;
+    background-color: #ffffff;
+    margin: 0 .5rem;
+    color: rgb(0, 104, 146);
+}
+
+.sign-in:hover{
+    color: #fff;
+    background-color: rgb(0, 104, 146);
+}
+
+.sign-in:active{
+    transform: scale(.99);
+    
+ }
+
+ .sign-form{
+    text-align: center;
+    position: relative;
+    top: 5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color:rgb(3, 178, 247);
+    width: 30%;
+    /* height: 45rem; */
+  
+    padding:0 3rem 6rem 3rem ;
+    border-radius: 1rem;
+    
+   
+ }
+
+ #sign-up-form{
+    display: none;
+ }
+
+ #sign-in-form{
+    display: none;
+ }
+
+ .sign-heading{
+    text-transform: uppercase;
+    color:  rgb(0, 104, 146);
+    margin-bottom: 2rem;
+    padding: 3rem 0;
+
+ }
+
+ input{
+    margin: 2rem auto;
+    display: block;
+    width: 70%;
+    padding: 1.5rem;
+    border-radius: 5rem;
+    border: none;
+    outline: none;
+    border-bottom: 3px transparent solid;
+    font-family: inherit;
+    font-weight: inherit;
+    color: #777;
+    font-size: 1.6rem;
+    
+ }
+
+ .sign-up-icon{
+    color: #fff;
+    font-size: 4rem;
+    /* border: 3px red solid; */
+    position: absolute;
+    right: 0;
+    text-align: end;
+ }
+
+ .sign-up-icon:hover{
+    cursor: pointer;
+ }
+ .sign-up-icon:active{
+    cursor: pointer;
+    transform: scale(.95);
+ }
+
+ input::placeholder{
+    font-size: 1.4rem;
+ }
+
+ input:focus{
+    border-bottom: 3px rgb(15, 251, 15) solid;
+ }
+
+ input:invalid:focus{
+    border-bottom: 3px rgb(251, 19, 15) solid;
+ }
+
+ .password{
+    margin-bottom: 4rem;
+ }
